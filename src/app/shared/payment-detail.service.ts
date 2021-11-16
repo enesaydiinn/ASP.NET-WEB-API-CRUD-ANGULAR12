@@ -10,6 +10,7 @@ export class PaymentDetailService {
 
   readonly baseURL='http://localhost:44862/api/PaymentDetail'
   formData: PaymentDetail=new PaymentDetail();
+  
   list:PaymentDetail[];
 
   putPaymentDetail(){
